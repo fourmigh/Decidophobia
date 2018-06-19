@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion rootProject.ext.sdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "org.caojun.decidophobia"
+        minSdkVersion 14
+        targetSdkVersion rootProject.ext.sdkVersion
+        versionCode 5
+        versionName "1.2.0"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "com.android.support:appcompat-v7:$androidsupport_version"
+    implementation "com.android.support:design:$androidsupport_version"
+    implementation 'com.j256.ormlite:ormlite-android:latest.release'
+    implementation 'com.github.zhaokaiqiang.klog:library:latest.release'
+    implementation 'org.jetbrains.anko:anko-common:latest.release'
+    repositories {
+        maven { url "https://raw.github.com/bmob/bmob-android-sdk/master" }
+    }
+    implementation 'cn.bmob.android:bmob-sdk:3.5.8'
+
+    implementation project(':CarouselLibrary')
+    implementation project(':DiceLibrary')
+    implementation project(':WidgetLibrary')
+    implementation project(':UtilsLibrary')
+}

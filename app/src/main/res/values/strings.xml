@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Decidophobia</string>
+    <string name="history">History</string>
+    <string name="title">Title</string>
+    <string name="option1">Option 1</string>
+    <string name="option2">Option 2</string>
+    <string name="option3">Option 3</string>
+    <string name="option4">Option 4</string>
+    <string name="option5">Option 5</string>
+    <string name="option6">Option 6</string>
+    <string name="btn_random">Random</string>
+    <string name="details">Details</string>
+    <string name="delete">Delete</string>
+    <string name="tips_delete">Long press to Delete, but not here.</string>
+    <string name="tips_delete2">I said, not here.</string>
+    <string name="tips_delete3">NOT HERE.</string>
+    <string name="share">Share</string>
+    <string name="cloud">Cloud</string>
+    <string name="which_one_to_choose">Which one would you choose?</string>
+    <string name="no_n">%s. %s</string>
+    <string name="upload">Share to Cloud</string>
+    <string name="upload_ok">Share to Cloud ok.</string>
+    <string name="upload_error">Share to Cloud error: %s</string>
+</resources>

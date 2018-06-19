@@ -1,0 +1,13 @@
+include ':app'
+
+include ':WidgetLibrary'
+project(':WidgetLibrary').projectDir = new File(settingsDir, '../CaojunLibrary/WidgetLibrary')
+
+include ':UtilsLibrary'
+project(':UtilsLibrary').projectDir = new File(settingsDir, '../CaojunLibrary/UtilsLibrary')
+
+include ':CarouselLibrary'
+project(':CarouselLibrary').projectDir = new File(settingsDir, '../CaojunLibrary/CarouselLibrary')
+
+include ':DiceLibrary'
+project(':DiceLibrary').projectDir = new File(settingsDir, '../CaojunLibrary/DiceLibrary')

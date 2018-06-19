@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.caojun.decidophobia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.ChoicesActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.ChoicesListActivity"
+            android:label="@string/details" />
+
+        <activity android:name=".activity.CloudChoicesListActivity"
+            android:label="@string/cloud" />
+
+        <activity android:name=".activity.CarouselActivity"
+            android:label="@string/app_name" />
+
+        <!-- bmob.cn -->
+        <meta-data
+            android:name="cn.bmob.v3.appid"
+            android:value="b63974c4abd02d8092bf67b66cf83dee" />
+    </application>
+
+</manifest>

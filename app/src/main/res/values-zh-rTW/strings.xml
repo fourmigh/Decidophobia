@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">選擇恐懼症</string>
+    <string name="history">歷史</string>
+    <string name="title">標題</string>
+    <string name="option1">選項 1</string>
+    <string name="option2">選項 2</string>
+    <string name="option3">選項 3</string>
+    <string name="option4">選項 4</string>
+    <string name="option5">選項 5</string>
+    <string name="option6">選項 6</string>
+    <string name="btn_random">隨機</string>
+    <string name="details">詳情</string>
+    <string name="delete">删除</string>
+    <string name="tips_delete">長按删除，但不是這裡。</string>
+    <string name="tips_delete2">說了不是這裡。</string>
+    <string name="tips_delete3">怎麼還點？</string>
+    <string name="cloud">雲端</string>
+    <string name="share">分享</string>
+    <string name="which_one_to_choose">你會選哪一個？</string>
+    <string name="no_n">%s、%s</string>
+    <string name="upload">分享到雲端</string>
+    <string name="upload_ok">分享到雲端成功。</string>
+    <string name="upload_error">分享到雲端失敗：%s</string>
+</resources>
